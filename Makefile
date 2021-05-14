@@ -14,7 +14,7 @@ $(EXE):
 	$(CC) $(CFLAGS) $(INCLUDE) $(SOURCE) -o $(EXE)
 
 clean:
-	del *.o run
+	del *.o $(EXE)
 
 # target: dependencies
 # 		commands(s)
