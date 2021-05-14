@@ -1,6 +1,7 @@
 
 #include <iostream>
 
+#include "include/Team.hpp"
 #include "include/Player.hpp"
 
 
@@ -15,7 +16,12 @@ int main(){
         "05314532672"
     );
 
-    cout<<player.toString();
+
+    Team team("Galatasaray");
+
+    team.addPlayer(player);
+
+    cout<<team.toString();
 
 
 
